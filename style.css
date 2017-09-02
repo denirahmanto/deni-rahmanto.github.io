@@ -1,0 +1,81 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.jumbotron h1, p{
+	text-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+}
+.quote{
+	background-color: #fe794e; 
+	margin-top: -30px;
+}
+.text-putih{
+	color: white;
+}
+.about{
+	background-color: #eeeeee;
+	min-height: 580px;
+}
+.about img{
+	width: 200px; height: 200px;
+	border: 3px solid #ff784b;
+}
+.about p{
+	font-size: 15px;
+	padding-top: 15px;
+}
+.about-parallax{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: 0.5s;
+}
+.about-parallax.show{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.galery .thumbnail{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: 0.5s;
+}
+.galery .thumbnail.show{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.quote p{
+	font-size: 15px;
+	text-shadow: none;
+}
+.quote-parallax{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: 0.5s;
+}
+.quote-parallax.show{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.sosmed img{
+	width: 70px; height: 70px;
+}
+.sosmed p{
+	padding-top: 15px;
+}
+.sosmed-parallax{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.5s;
+}
+.sosmed-parallax.show{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.animate-front{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.5s;
+}
+.animate-front.show{
+	opacity: 1;
+	transform: scale(1);
+}
